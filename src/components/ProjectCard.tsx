@@ -18,11 +18,12 @@ const ProjectCard = ({ title, category, description, path, tags, gradient }: Pro
       style={{
         background: 'var(--color-surface)',
         border: '1px solid var(--color-border)',
-        borderRadius: '12px',
+        borderRadius: '0px', // Flat editorial look
         overflow: 'hidden',
         display: 'flex',
         flexDirection: 'column',
-        height: '100%'
+        height: '100%',
+        boxShadow: '0 4px 20px rgba(0,0,0,0.03)'
       }}
     >
       <div style={{ 

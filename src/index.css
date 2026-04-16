@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
 :root {
-  /* Color Palette - Premium Editorial */
-  --color-bg: #111110;
-  --color-surface: #1C1C1A;
-  --color-surface-hover: #262624;
-  --color-text-main: #F7F5F0;
-  --color-text-muted: #8E8D89;
-  --color-accent: #E06A4E;
-  --color-accent-hover: #C5563D;
-  --color-border: rgba(247, 245, 240, 0.1);
+  /* Color Palette - Premium Editorial (Lighter Side) */
+  --color-bg: #FAF9F6;
+  --color-surface: #FFFFFF;
+  --color-surface-hover: #F2F0EB;
+  --color-text-main: #1A1A1A;
+  --color-text-muted: #5A5A57;
+  --color-accent: #B95438;
+  --color-accent-hover: #9E432A;
+  --color-border: rgba(0, 0, 0, 0.08);
   
   /* Typography */
   --font-serif: 'Playfair Display', serif;
@@ -82,7 +82,7 @@ p {
 
 /* Premium Background Effects */
 .glass {
-  background: rgba(28, 28, 26, 0.7);
+  background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--color-border);
